@@ -1,0 +1,55 @@
+% Pacote de idioma
+\usepackage[brazil]{babel}
+% Pacote de formato de página
+\usepackage[letterpaper,top=2.5cm,bottom=3cm,left=2.5cm,right=3cm,marginparwidth=1.75cm]{geometry}
+% Pacote de formato de paragrafo
+\usepackage[skip=5pt plus1pt, indent=40pt]{parskip}
+% Pacote de formato de espaçamento entre linhas
+\usepackage[onehalfspacing]{setspace}
+% Pacote de hyperlinks
+\usepackage[hidelinks]{hyperref}
+% Pacote de referencia ABNT (ITA)
+\usepackage[alf,abnt-emphasize=bf,abnt-etal-cite=2,abnt-etal-list=0,abnt-etal-text=it]{abntcite}
+% Pacote que permite um trecho do texto gerar um arquivo extra
+\usepackage{standalone}
+%
+\usepackage{array}
+%
+\usepackage[utf8]{inputenc}
+% Pacote para ferramentas de matemática
+\usepackage{amsmath}
+% Pacote com opções de sublinhado (simples e duplo) e tachado
+\usepackage{ulem}
+% Pacote de opções para colocar imagens, legendas, sublegendas e mais opções para floats (por exemplo a opção H que força a posição)
+\usepackage{graphicx, caption, subcaption, float}
+% Pacote de opções para listas
+\usepackage{enumitem}
+% Pacotes que permitem mesclar colunas e linhas e bordas grossas nas tabelas
+\usepackage{multirow, multicol, boldline}
+% Pacotes do /FloatBarrier que descarrega todo os floats na fila antes de avançar
+\usepackage{placeins}
+% Pacotes que permite adicionar paginas de um pdf
+\usepackage{pdfpages}
+%\usepackage[dvipsnames]{xcolor}   % Code formating
+    \definecolor{ccmBlue}{RGB}{20, 80, 200}
+    \definecolor{ccmDBlue}{RGB}{25, 50, 120}
+    \definecolor{ccmLBlue}{RGB}{170, 200, 230}
+    \definecolor{ccmOrange}{RGB}{255, 100, 0}
+    \definecolor{ccmRed}{RGB}{190, 0, 0}
+    \definecolor{ccmLGray}{RGB}{210, 210, 210}
+    \definecolor{ccmDGray}{RGB}{85, 85, 85}
+    \definecolor{ccmWhite}{RGB}{250, 250, 250}
+    
+    % Ordem Paleta
+    \definecolor{cor1}{RGB}{190, 000, 000}  %ccmRed
+    \definecolor{cor2}{RGB}{025, 050, 120}  %ccmDBlue
+    \definecolor{cor3}{RGB}{210, 210, 210}  %ccmLGray
+    \definecolor{cor4}{RGB}{255, 100, 000}  %ccmOrange
+    \definecolor{cor5}{RGB}{170, 200, 230}  %ccmLBlue
+    \definecolor{cor6}{RGB}{085, 085, 085}  %ccmDGray
+    \definecolor{cor7}{RGB}{020, 080, 200}  %ccmBlue
+
+%Pacotes do Tikz (gerar imagens e diagramas) e salvar em .png
+\usepackage{pgf, tikz}
+    \usetikzlibrary{matrix,shapes.geometric,shapes.symbols,arrows.meta,positioning}
+    \tikzset{>={Latex[round]}}

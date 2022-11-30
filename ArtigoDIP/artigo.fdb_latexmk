@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex artigo"] 1669812722 "artigo.aux" "artigo.bbl" "artigo" 1669812727 0
+["bibtex artigo"] 1669812722 "artigo.aux" "artigo.bbl" "artigo" 1669813802 0
   "./abnt/abnt-alf.bst" 1669818848 60640 673b77c5cb5872687ba5abcf3df5225f ""
   "./abnt/abnt-options.bib" 1669818848 5396 4eb260dac60f150ae608d45252853090 ""
   "./referencias.bib" 1669812425 20303 5e80a0d4605f4071bae72573e3c777cc ""
-  "artigo.aux" 1669812725 3069 47d395b1d3c472292b0130a8e6f9bd4b "pdflatex"
+  "artigo.aux" 1669813800 3069 47d395b1d3c472292b0130a8e6f9bd4b "pdflatex"
   (generated)
   "artigo.bbl"
   "artigo.blg"
   (rewritten before read)
-["pdflatex"] 1669812722 "c:/Users/ivan/Documents/Latex2/artigo.tex" "artigo.pdf" "artigo" 1669812727 0
+["pdflatex"] 1669813797 "c:/Users/ivan/Documents/TextosLatex/ArtigoDIP/artigo.tex" "artigo.pdf" "artigo" 1669813802 0
   "0_abstract.tex" 1669811150 475 30751f22f21e1bf5977db913c54c4c03 ""
   "1_introducao.tex" 1669818848 1697 1deb0b6d9f5ace9bcd3c466ee883782b ""
   "2.1_ia.tex" 1669818848 452 1b1afe5302a8fccc29c94c060529cd92 ""
@@ -218,7 +218,6 @@
   "C:/Users/ivan/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1654690828 10214 de3e21cfc0eccc98ca7f8dac0ef263d2 ""
   "C:/Users/ivan/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1654690828 32329 5d201ab4b4c773e7c876c2a052b07be3 ""
   "C:/Users/ivan/AppData/Local/Programs/MiKTeX/tex/latex/tools/shellesc.sty" 1654690828 4118 0aa319c56935d7d217b6a8bf300b81b7 ""
-  "C:/Users/ivan/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1654690828 7147 be6981d9f5d866a5634048c4a11814a9 ""
   "C:/Users/ivan/AppData/Local/Programs/MiKTeX/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "C:/Users/ivan/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ivan/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
@@ -230,12 +229,13 @@
   "abnt/nbr10522-1988.def" 1669818848 2043 7d5caece522076d604304cc886797e72 ""
   "abntcite.sty" 1669818848 40735 8160d326f02cf2d99b92fbfe1925b060 ""
   "abntex-abrev.sty" 1669818848 2400 d3f8e34578e9e7d61b73916224f72b20 ""
-  "artigo.aux" 1669812725 3069 47d395b1d3c472292b0130a8e6f9bd4b "pdflatex"
+  "artigo.aux" 1669813800 3069 47d395b1d3c472292b0130a8e6f9bd4b "pdflatex"
   "artigo.bbl" 1669812722 1706 2e3ea7eb87edd61fc1c82a2ee8842c52 "bibtex artigo"
-  "artigo.out" 1669812725 1176 101211bc38587d524332646565f5cd32 "pdflatex"
-  "artigo.tex" 1669812715 2628 e8800660efb19575f4ca4efbc308a949 ""
-  "c:/Users/ivan/Documents/Latex2/artigo.tex" 1669812715 2628 e8800660efb19575f4ca4efbc308a949 ""
+  "artigo.out" 1669813800 1176 101211bc38587d524332646565f5cd32 "pdflatex"
+  "artigo.tex" 1669813085 963 7212770e6f85aa269c613b48269741f0 ""
+  "c:/Users/ivan/Documents/TextosLatex/ArtigoDIP/artigo.tex" 1669813085 963 7212770e6f85aa269c613b48269741f0 ""
   "imagens/diagrama_metodologia.tex" 1669812459 3837 91e3f90de7a576265123fe96bae39afe ""
+  "preambulo.tex" 1669813794 2429 4479e5ed1469db966a8fb8ef42c73fae ""
   (generated)
   "artigo.aux"
   "artigo.log"
