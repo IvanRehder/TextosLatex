@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex artigo"] 1669812722 "artigo.aux" "artigo.bbl" "artigo" 1669813802 0
+["bibtex artigo"] 1669824938 "artigo.aux" "artigo.bbl" "artigo" 1669824943 0
   "./abnt/abnt-alf.bst" 1669818848 60640 673b77c5cb5872687ba5abcf3df5225f ""
   "./abnt/abnt-options.bib" 1669818848 5396 4eb260dac60f150ae608d45252853090 ""
-  "./referencias.bib" 1669812425 20303 5e80a0d4605f4071bae72573e3c777cc ""
-  "artigo.aux" 1669813800 3069 47d395b1d3c472292b0130a8e6f9bd4b "pdflatex"
+  "./referencias.bib" 1669824895 20886 aa895bc78c22f052f60b76252bc8ae45 ""
+  "artigo.aux" 1669824941 3733 6e8a376a6696a1ca5e66d6a79e7316b5 "pdflatex"
   (generated)
   "artigo.bbl"
   "artigo.blg"
   (rewritten before read)
-["pdflatex"] 1669813797 "c:/Users/ivan/Documents/TextosLatex/ArtigoDIP/artigo.tex" "artigo.pdf" "artigo" 1669813802 0
+["pdflatex"] 1669824938 "c:/Users/ivan/Documents/TextosLatex/ArtigoDIP/artigo.tex" "artigo.pdf" "artigo" 1669824943 0
   "0_abstract.tex" 1669811150 475 30751f22f21e1bf5977db913c54c4c03 ""
   "1_introducao.tex" 1669818848 1697 1deb0b6d9f5ace9bcd3c466ee883782b ""
-  "2.1_ia.tex" 1669818848 452 1b1afe5302a8fccc29c94c060529cd92 ""
-  "2.2_criatividade.tex" 1669818848 300 515ea285132dad2759b4d0062f7aa27e ""
-  "2.3_desenvolvimento.tex" 1669818848 142 bd6df80c0d8f1516749162db7b438f60 ""
+  "2.1_ia.tex" 1669817874 767 f85faf1a217ef75cd902f5e0ecfbd38e ""
+  "2.2_criatividade.tex" 1669824284 538 3f91b2d5760713b89017794cb3b2ae28 ""
+  "2.3_desenvolvimento.tex" 1669824931 368 5c2ff8c7452a082a73bc7f2273a3d9f2 ""
   "3_metodologia.tex" 1669818848 3307 d253487fd53df756a01e9456d7420f5c ""
   "4_resultados.tex" 1669818848 0 d41d8cd98f00b204e9800998ecf8427e ""
   "5_conclusoes.tex" 1669818848 87 2e854ec6f0cfad265d48024ecc1c6516 ""
@@ -229,11 +229,11 @@
   "abnt/nbr10522-1988.def" 1669818848 2043 7d5caece522076d604304cc886797e72 ""
   "abntcite.sty" 1669818848 40735 8160d326f02cf2d99b92fbfe1925b060 ""
   "abntex-abrev.sty" 1669818848 2400 d3f8e34578e9e7d61b73916224f72b20 ""
-  "artigo.aux" 1669813800 3069 47d395b1d3c472292b0130a8e6f9bd4b "pdflatex"
-  "artigo.bbl" 1669812722 1706 2e3ea7eb87edd61fc1c82a2ee8842c52 "bibtex artigo"
-  "artigo.out" 1669813800 1176 101211bc38587d524332646565f5cd32 "pdflatex"
-  "artigo.tex" 1669813085 963 7212770e6f85aa269c613b48269741f0 ""
-  "c:/Users/ivan/Documents/TextosLatex/ArtigoDIP/artigo.tex" 1669813085 963 7212770e6f85aa269c613b48269741f0 ""
+  "artigo.aux" 1669824941 3733 6e8a376a6696a1ca5e66d6a79e7316b5 "pdflatex"
+  "artigo.bbl" 1669824938 2331 cac373dab7406442c727432898320be5 "bibtex artigo"
+  "artigo.out" 1669824941 1210 13278d71d99f8ec7710cbcdd3ebe3c0b "pdflatex"
+  "artigo.tex" 1669817873 1104 ec8a8c9ee4075a1514087a0d0fe4258a ""
+  "c:/Users/ivan/Documents/TextosLatex/ArtigoDIP/artigo.tex" 1669817873 1104 ec8a8c9ee4075a1514087a0d0fe4258a ""
   "imagens/diagrama_metodologia.tex" 1669812459 3837 91e3f90de7a576265123fe96bae39afe ""
   "preambulo.tex" 1669813794 2429 4479e5ed1469db966a8fb8ef42c73fae ""
   (generated)

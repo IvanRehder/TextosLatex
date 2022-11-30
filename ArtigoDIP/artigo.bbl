@@ -5,6 +5,10 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.45.2.1 }
 
+\bibitem[Baxter 2018]{baxter2018product}
+\abntrefinfo{Baxter}{BAXTER}{2018}
+{BAXTER, M. \textbf{Product design}. [\textit{S.l.}]: CRC press, 2018.}
+
 \bibitem[Chen \textit{et al.} 2019]{chen_artificial_2019}
 \abntrefinfo{Chen \textit{et al.}}{CHEN \textit{et al.}}{2019}
 {CHEN, L.; WANG, P.; DONG, H.; SHI, F.; HAN, J.; GUO, Y.; CHILDS, P.~R.; XIAO,
@@ -27,6 +31,17 @@ ISSN 1050-0472, 1528-9001.
 Available at: $
   $https:\-/\-/asmedigitalcollection\-.asme\-.org\-/mechanicaldesign\-/article\-/144\-/4\-/041402\-/1128908\-/If-a-Picture-is-Worth-1000-Words-Is-a-Word-Worth$
   $.}
+
+\bibitem[Hamet e Tremblay 2017]{hamet2017artificial}
+\abntrefinfo{Hamet e Tremblay}{HAMET; TREMBLAY}{2017}
+{HAMET, P.; TREMBLAY, J. Artificial intelligence in medicine.
+\textbf{Metabolism}, Elsevier, v.~69, p. S36--S40, 2017.}
+
+\bibitem[Runco e Chand 1995]{runco1995cognition}
+\abntrefinfo{Runco e Chand}{RUNCO; CHAND}{1995}
+{RUNCO, M.~A.; CHAND, I. Cognition and creativity.
+\textbf{Educational psychology review}, Springer, v.~7, n.~3, p. 243--267,
+  1995.}
 
 \bibitem[Verganti \textit{et al.} 2020]{verganti2020innovation}
 \abntrefinfo{Verganti \textit{et al.}}{VERGANTI \textit{et al.}}{2020}
