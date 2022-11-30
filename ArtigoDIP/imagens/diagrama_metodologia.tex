@@ -1,0 +1,48 @@
+\tikzstyle{start} = [rectangle, rounded corners, minimum width=3cm, minimum height=1.0cm,text centered, draw=black, fill=white!30, text width=3cm]
+\tikzstyle{steps} = [rectangle, minimum width=3cm, minimum height=1.0cm, text centered, draw=black, fill=white!30, text width=3cm]
+\tikzstyle{paral_steps} = [rectangle, minimum width=5cm, minimum height=1.5cm, text centered, draw=black, fill=white!30, text width=5cm]
+    
+\tikzstyle{arrow} = [ccmDBlue, rounded corners, line width = 1mm, ->] 
+\tikzstyle{funil} = [black, rounded corners, dashed, line width = 0.5mm]
+
+\begin{tikzpicture}[node distance = 3cm]
+    \centering
+    
+    \node (start) [start] {Buscas por artigos ciêntifcos};
+
+    \node (f1) [right of=start, xshift = 3.0cm, yshift = 0.5cm]{};
+    \node (f2) [right of=start, xshift = -2.0cm, yshift = -8cm]{};
+    \node (f3) [below of=f2, xshift = -0.0cm, yshift = 0.0cm]{};
+    \node (f4) [left of=f3, xshift = 1.0cm, yshift = 0.0cm]{};
+    \node (f5) [left of=f2, xshift = 1.0cm, yshift = 0.0cm]{};
+    \node (f6) [left of=start, xshift = -3.0cm, yshift = 0.5cm]{};
+    \draw[funil] (f1.center) to (f2.center);
+    \draw[funil] (f2.center) to (f3.center);
+    \draw[funil] (f3.center) to (f4.center);
+    \draw[funil] (f4.center) to (f5.center);
+    \draw[funil] (f5.center) to (f6.center);
+    
+    \node (scopus) [steps, below of=start, xshift = -2.5cm, yshift = 0.75cm] {SCOPUS};
+    \node (wos) [steps, below of=start, yshift = 0, xshift = 2.5cm, yshift = 0.75cm] {Web of Science};
+    \node (categoria) [start, below of=wos, xshift = -2.5cm, yshift = 0.5cm] {Categorização};
+    \node (forte) [steps, below of=categoria, left of = categoria, xshift = -1cm, yshift = 1.0cm] {Forte};
+    \node (medio) [steps, below of=categoria, yshift = 1.0cm] {Médio};
+    \node (fraco) [steps, below of=categoria, right of = categoria, xshift = 1cm, yshift = 1.0cm] {Fraco};
+    \node (leitura) [start, below of=medio, yshift = 0.5cm] {Leitura integral dos artigos};
+    \node (pergunta) [start, below of=leitura, yshift = 1.0cm] {Repostas as perguntas de pesquisa};
+    \node (escrita) [start, below of=pergunta, yshift = 1.0cm] {Escrever a sintese das respostas obtidas};
+   
+    \draw [arrow] (start) to ++(0,-1.0cm) to ++(-2.5cm,0) to node[midway,right]{} (scopus.north);      
+    \draw [arrow] (start) to ++(0,-1.0cm) to ++(2.5cm,0) to node[midway,right]{} (wos.north);       
+    \draw [arrow] (scopus) to ++(0,-1.25cm) node[text width=2.5cm, color = black, above right]{48 artigos} to ++(2.5cm,0) to node[midway,right]{} (categoria.north);
+    \draw [arrow] (wos) to ++(0,-1.25cm) node[text width=2.5cm, color = black, above right]{4 artigos} to ++(-2.5cm,0) to node[text width=2.5cm, right, color = black]{51 artigos} (categoria.north);        
+    \draw [arrow] (categoria) to ++(0,-1.0cm) to ++(-4.0cm,0) to node[midway,above right]{} (forte.north);       
+    \draw [arrow] (categoria) to node[midway,right]{} (medio.north);
+    \draw [arrow] (categoria) to ++(0,-1.0cm) to ++(4.0cm,0) to node[midway,right]{} (fraco.north);
+    \draw [arrow] (forte) to ++(0,-1.25cm) node[text width=2.5cm, color = black, above right]{15 artigos} to ++(4.0cm,0) to node[midway,right]{} (leitura.north);
+    \draw [arrow] (medio) to ++(0,-1.25cm) node[text width=2.5cm, color = black, above right]{17 artigos} to node[midway,right]{} (leitura.north);;
+    \draw [arrow] (fraco) to ++(0,-1.25cm) node[text width=2.5cm, color = black, above right]{17 artigos} to ++(-4.0cm,0) to node[midway,right]{} (leitura.north);
+    \draw [arrow] (leitura) to ++(0,-1.25cm) node[text width=2.5cm, color = black, above right]{13 artigos} to node[midway,above right]{} (pergunta.north);
+    \draw [arrow] (pergunta)  to ++(0,-1.0cm) node[text width=2.5cm, color = black, above right]{} to node [midway,above right]{} (escrita.north);
+
+\end{tikzpicture}

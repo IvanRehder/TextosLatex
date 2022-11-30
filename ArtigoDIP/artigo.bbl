@@ -1,0 +1,38 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Chen \textit{et al.} 2019]{chen_artificial_2019}
+\abntrefinfo{Chen \textit{et al.}}{CHEN \textit{et al.}}{2019}
+{CHEN, L.; WANG, P.; DONG, H.; SHI, F.; HAN, J.; GUO, Y.; CHILDS, P.~R.; XIAO,
+  J.; WU, C. An artificial intelligence based data-driven approach for design
+  ideation.
+\textbf{Journal of Visual Communication and Image Representation}, v.~61, p.
+  10--22, maio 2019.
+ISSN 10473203.
+Available at: $
+  $https:\-/\-/linkinghub\-.elsevier\-.com\-/retrieve\-/pii\-/S1047320319300604$
+  $.}
+
+\bibitem[Edwards \textit{et al.} 2022]{edwards_if_2022}
+\abntrefinfo{Edwards \textit{et al.}}{EDWARDS \textit{et al.}}{2022}
+{EDWARDS, K.~M.; PENG, A.; MILLER, S.~R.; AHMED, F. If a {Picture} is {Worth}
+  1000 {Words}, {Is} a {Word} {Worth} 1000 {Features} for {Design} {Metric}
+  {Estimation}?
+\textbf{Journal of Mechanical Design}, v.~144, n.~4, p. 041402, abr. 2022.
+ISSN 1050-0472, 1528-9001.
+Available at: $
+  $https:\-/\-/asmedigitalcollection\-.asme\-.org\-/mechanicaldesign\-/article\-/144\-/4\-/041402\-/1128908\-/If-a-Picture-is-Worth-1000-Words-Is-a-Word-Worth$
+  $.}
+
+\bibitem[Verganti \textit{et al.} 2020]{verganti2020innovation}
+\abntrefinfo{Verganti \textit{et al.}}{VERGANTI \textit{et al.}}{2020}
+{VERGANTI, R.; VENDRAMINELLI, L.; IANSITI, M. Innovation and design in the age
+  of artificial intelligence.
+\textbf{Journal of Product Innovation Management}, Wiley Online Library, v.~37,
+  n.~3, p. 212--227, 2020.}
+
+\end{thebibliography}

@@ -1,0 +1,97 @@
+\documentclass[a4paper, 10pt, dvipsnames]{article}
+
+\usepackage[brazil]{babel}
+
+\usepackage[letterpaper,top=2.5cm,bottom=3cm,left=2.5cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[skip=5pt plus1pt, indent=40pt]{parskip}
+\usepackage[onehalfspacing]{setspace}
+\usepackage[hidelinks]{hyperref}
+\usepackage[alf,abnt-emphasize=bf,abnt-etal-cite=2,abnt-etal-list=0,abnt-etal-text=it]{abntcite}
+\usepackage{standalone}
+\usepackage{array}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{ulem}
+\usepackage{boldline}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{pdfpages}
+%\usepackage[dvipsnames]{xcolor}   % Code formating
+    \definecolor{ccmBlue}{RGB}{20, 80, 200}
+    \definecolor{ccmDBlue}{RGB}{25, 50, 120}
+    \definecolor{ccmLBlue}{RGB}{170, 200, 230}
+    \definecolor{ccmOrange}{RGB}{255, 100, 0}
+    \definecolor{ccmRed}{RGB}{190, 0, 0}
+    \definecolor{ccmLGray}{RGB}{210, 210, 210}
+    \definecolor{ccmDGray}{RGB}{85, 85, 85}
+    \definecolor{ccmWhite}{RGB}{250, 250, 250}
+    
+    % Ordem Paleta
+    \definecolor{cor1}{RGB}{190, 000, 000}  %ccmRed
+    \definecolor{cor2}{RGB}{025, 050, 120}  %ccmDBlue
+    \definecolor{cor3}{RGB}{210, 210, 210}  %ccmLGray
+    \definecolor{cor4}{RGB}{255, 100, 000}  %ccmOrange
+    \definecolor{cor5}{RGB}{170, 200, 230}  %ccmLBlue
+    \definecolor{cor6}{RGB}{085, 085, 085}  %ccmDGray
+    \definecolor{cor7}{RGB}{020, 080, 200}  %ccmBlue
+
+\usepackage{pgf}
+\usepackage{tikz}
+    \usetikzlibrary{matrix,shapes.geometric,shapes.symbols,arrows.meta,positioning}
+    \tikzset{>={Latex[round]}}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\title{A combinação de inteligência artificial e criatividade no desenvolvimento de produtos.}
+\author{
+  Cardozo, Bruno da Silva\\
+  \texttt{brunobsc@ita.br}
+  \and
+  Machiori, Elder Lucio\\
+  \texttt{eldermelchiori@gmail.com}
+  \and
+  Rehder, Ivan de Souza\\
+  \texttt{ivan@ita.br}
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\input{0_abstract.tex}
+\end{abstract}
+
+\section{Introdução}
+\input{1_introducao.tex}
+
+\section{Revisão bibliográfica}
+
+\subsection{Inteligência artificial}
+\input{2.1_ia.tex}
+
+\subsection{Processos de criatividade}
+\input{2.2_criatividade.tex}
+
+\subsection{Desenvolvimento de produto}
+\input{2.3_desenvolvimento.tex}
+
+\section{Metodologia}
+\input{3_metodologia.tex}
+
+\section{Resultados e discussões}
+\input{4_resultados.tex}
+
+\section{Conclusões}
+\input{5_conclusoes.tex}
+
+%\bibliographystyle{abntex2-alf}
+\bibliography{referencias}
+
+\end{document}

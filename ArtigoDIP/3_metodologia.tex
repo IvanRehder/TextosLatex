@@ -1,0 +1,31 @@
+Buscas por artigos científicos foram feitas utilizando dois bancos de dados para pesquisa de artigos, o SCOPUS e o Web of Science (WOS). A pesquisa iniciou no dia 24 de outubro de 2022. A principal pergunta de pesquisa é “Como a IA auxilia no processo em métodos de criatividade dentro do desenvolvimento de produto (integrado)?”
+
+Para as buscas os termos “Creativ*” (o asterisco no final do termo indica que palavras como "Creativity” ou "Creative” ou semelhantes devem ser aceitas) e “Artificial Intelligence” foram filtrados para o título, resumo e as palavras-chaves do artigo. Além desses termos, o termo “product development” foi filtrado ao longo do artigo todo. Por fim, apenas artigos deveriam ser indicados. 
+
+No SCOPUS o comando de pesquisa para esse filtro é (TITLE-ABS-KEY (creativ*) AND “product  development” AND TITLE-ABS-KEY (“artificial intelligence”)) AND (LIMIT-TO (DOCTYPE, "ar")). Isso resultou em 49 artigos. A princípio, desejava-se no mínimo 50 artigos filtrados nessa primeira etapa. Como apenas 48 foram apresentados, foi adicionado o Web Of Science também na busca.
+
+No WOS o comando para a busca foi (AB = (Creativ*) OR TI = (Creativ*) OR AK = (Creativ*)) AND (AB = ("Artificial Intelligence") OR TI = ("Artificial Intelligence") OR AK = ("Artificial Intelligence")) AND( ALL = ("Product Development")), então selecionou-se para ver apenas artigos dentre os resultados da pesquisa. Isso resultou em 4 artigos. A lista resultante após a remoção de réplicas foi de 51 artigos. 
+
+A etapa seguinte foi a categorização em artigos “Fortes”, “Médios” e “Fracos”. Essa categorização foi feita baseada na leitura dos Resumos de todos os 51 artigos. Caso no resumo os três termos são citados, esse artigo é considerado um artigo forte. Caso apenas dois termos sejam citados, seria um artigo médio. Por fim, se uma palavra é citada, o artigo é fraco. No final tinha-se 15 artigos fortes, 17 médios e 17 fracos. Também foi desenhado categorizar os artigos por relevância ao tema, mas essa consideração provou-se redundante, já que todos os artigos fortes foram considerados de alta relevância.
+
+Então, os 15 artigos fortes foram lidos de forma integral e de forma atenta para responder as três perguntas de pesquisa: 
+
+\begin{itemize}
+
+    \item Como a IA auxilia no processo em métodos de criatividade dentro do desenvolvimento de produto (integrado)?
+
+    \item Como as tecnologias  de geração de imagem a partir de um texto usando IA auxiliam nos métodos de criatividade dentro do desenvolvimento de produto (integrado)?
+
+    \item Como que IA enxerga as técnicas de criatividade no desenvolvimento de produto (integrado)?
+\end{itemize}
+
+Uma representação das etapas descritas acima é apresentada na Figura \ref{fig:funil_metodologia}
+
+Buscando manter as informações organizadas, um documento foi criado para compilar todas as respostas, às perguntas de pesquisa, que cada artigo selecionado apresenta e então essas respostas foram agrupadas para então serem sintetizadas no texto apresentado no capítulo seguinte.
+
+\begin{figure}[!htb]
+    \centering
+    \input{imagens/diagrama_metodologia.tex}
+    \caption{Representação das etapas da metodologia}
+    \label{fig:funil_metodologia}
+\end{figure}
