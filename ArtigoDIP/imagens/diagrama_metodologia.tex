@@ -29,7 +29,7 @@
     \node (medio) [steps, below of=categoria, yshift = 1.0cm] {Médio};
     \node (fraco) [steps, below of=categoria, right of = categoria, xshift = 1cm, yshift = 1.0cm] {Fraco};
     \node (leitura) [start, below of=medio, yshift = 0.5cm] {Leitura integral dos artigos};
-    \node (pergunta) [start, below of=leitura, yshift = 1.0cm] {Repostas as perguntas de pesquisa};
+    \node (pergunta) [start, below of=leitura, yshift = 1.0cm] {Respostas a pergunta de pesquisa};
     \node (escrita) [start, below of=pergunta, yshift = 1.0cm] {Escrever a sintese das respostas obtidas};
    
     \draw [arrow] (start) to ++(0,-1.0cm) to ++(-2.5cm,0) to node[midway,right]{} (scopus.north);      
@@ -42,7 +42,7 @@
     \draw [arrow] (forte) to ++(0,-1.25cm) node[text width=2.5cm, color = black, above right]{15 artigos} to ++(4.0cm,0) to node[midway,right]{} (leitura.north);
     \draw [arrow] (medio) to ++(0,-1.25cm) node[text width=2.5cm, color = black, above right]{17 artigos} to node[midway,right]{} (leitura.north);;
     \draw [arrow] (fraco) to ++(0,-1.25cm) node[text width=2.5cm, color = black, above right]{17 artigos} to ++(-4.0cm,0) to node[midway,right]{} (leitura.north);
-    \draw [arrow] (leitura) to ++(0,-1.25cm) node[text width=2.5cm, color = black, above right]{9 artigos} to node[midway,above right]{} (pergunta.north);
+    \draw [arrow] (leitura) to ++(0,-1.25cm) node[text width=2.5cm, color = black, above right]{7 artigos} to node[midway,above right]{} (pergunta.north);
     \draw [arrow] (pergunta)  to ++(0,-1.0cm) node[text width=2.5cm, color = black, above right]{} to node [midway,above right]{} (escrita.north);
 
 \end{tikzpicture}

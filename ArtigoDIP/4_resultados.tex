@@ -1,4 +1,4 @@
-Como dito anteriormente, a pergunta que buscou-se responder foi "Como a inteligência artificial auxilia no processo em métodos de criatividade dentro do desenvolvimento de produto?"
+Como dito anteriormente, a pergunta que buscou-se responder foi "Como a inteligência artificial (IA) auxilia no processo em métodos de criatividade dentro do desenvolvimento de produto?"
 
 \subsection*{Processamento de linguagem natural e processamento de imagem}
 
@@ -8,7 +8,12 @@ Ao longo da leitura dos artigos é possível perceber que alguns dos mecanismo u
 
 % Linguagem
 % Imagem
-\citeonline{chen_artificial_2019} propõem um método para estimular a criatividade que pode ser dividido em duas partes: uma usando processamento natural de linguagem; e outra utilizando processamento de imagens. Os autores testaram esse método contra um grupo de controle que utilizava apenas o google e brainstorming para estimular a criatividade e o resultado foi que o método desenvolvido não só gerou mais ideias quanto gerou mais ideias originais.
+\citeonline{chen_artificial_2019} propõem um método baseado em dados para estimular a criatividade durante a etapa de ideação no desenvolvimento de produtos. O método foi dividido em duas partes: a primeira, usando processamento natural de linguagem; a segunda, utilizando processamento de imagens. Os autores testaram o método contra um grupo de controle que utilizava apenas o google e brainstorming para estimular a criatividade. Neste cenário, o resultado foi que o método desenvolvido auxiliou numa maior geração de ideias e, também, ideias mais originais.
+
+O primeiro método se baseia no conceito de rede semântica, que é uma rede associativa artificial entre entidades semânticas (objetos, conceitos, ideias específicas, produtos) ligadas por relações semânticas, de forma a ser capaz de quantificar a diversidade dos diversos atributos. De forma geral, o autor explica que as fontes de dados  para o treino podem ser obtidas de várias maneiras, tais como a raspagem web. Para a etapa de pré-processamento, Chen discute que as abordagens linguísticas são melhores na captura de significados semânticos e sintáticos no processamento de linguagem natural. Neste caso, métodos supervisionados têm mostrado melhor desempenho beneficiando-se de estruturas avançadas de aprendizagem de máquinas. A partir disso, o algoritmo desenvolvido baseou-se em permitir a interação do usuario com a IA de forma com que seja possível avançar ou recuar pelas relações semânticas. Isto é, a criatividade é estimulada a partir da possibilidade de caminhar entre entidades semânticas associadas, explícitas ou implicitamente, pela IA.
+
+No método utilizado para o processamento de imagens, o estudo investigou como produzir imagens que sintetizam características importantes a partir de dois conceitos, enquadrando-se em duas categorias distintas usando a formulação de redes adversárias generativas (GAN). Como método de aprendizado supervisionado, o autor estabeleceu dois conjuntos de dados através da coleta de imagens que representavam dois conceitos conhecidos, aplicando as Redes Adversárias Generativas Convolutivas Profundas (DCGANs).
+
 % -------------------------------------------------------------
 % -------------------------------------------------------------
 
@@ -19,34 +24,65 @@ Ao longo da leitura dos artigos é possível perceber que alguns dos mecanismo u
 % -------------------------------------------------------------
 % -------------------------------------------------------------
 
+Esses métodos mostram como o seres humanos podem ter a sua criatividade estimulada apenas com estimulos visuais.
 
 % *************************************************************
 % *************************************************************
 % Linguagem (Fuzzy)
 % Delphi
 
-\subsection*{Tomada de decisão}
+\subsection*{Inteligência artificial auxiliando tomada de decisão}
 
-\citeonline{hsueh_supporting_2022} Eles fizeram um Delphi, um questionário para identificar atributos chave sem um determinado problema. Eles solictar os atributos mais importantes nas tomadas de decisões para 17 profissionais da área, chegando a 4 critérios importantes. 
+Alguns algoritimos de IA facilitam a tomada de decisão de uma equipe de criação. \citeonline{hsueh_supporting_2022} desenvolveram uma ferramenta para facilitar a tomada de decisão e \citeonline{verganti2020innovation} analisou o uso de IA em três grandes empresas e em uma dessas analises ele mostra como foi utilizado para definir os parametros de criação de novos produtos. Semelhantemente, \citeonline{buhamdan2022use} desenveolveu um algoritmo para definir a melhor estratégia para correções em obras civis.
+
+\citeonline{hsueh_supporting_2022} fizeram um Delphi, um questionário para identificar atributos chave sem um determinado problema. Eles solicitaram os atributos mais importantes nas tomadas de decisões para 17 profissionais da área, chegando a 4 critérios importantes. 
 
 A técnica Fuzzy é usada junto com esses critérios para quantificar uma tomada de decisão. A técnica Fuzzy é uma maneira de quantificar parâmetros qualitativos e é ela quem permite pontuar os critérios e assim facilitar a tomada de decisão.
 
-O uso desses dois métodos em conjunto, Delphi e Fuzzy, gerou o DFuzzy, objeto de estudo do artigo. O DFuzzy foi testado em 81 cenários diferentes e os 3 cenários com maiores pontuações foram 3 ideias que já tinha recebido títulos de ideias mais inovadoras dos anos de 2015 e 2017 da Malasia.
-
+O uso desses dois métodos em conjunto, Delphi e Fuzzy, gerou o DFuzzy, objeto de estudo do artigo. O DFuzzy foi testado em 81 cenários diferentes e os 3 cenários com maiores pontuações foram 3 ideias que já tinham recebido títulos de ideias mais inovadoras dos anos de 2015 e 2017 da Malasia.
 
 % -------------------------------------------------------------
 % -------------------------------------------------------------
 
+\citeonline{de2020artificial} utilizaram um sistema baseado em conhecimento usando IA para auxiliar o gerenciamento de conhecimento na seleção de técnicas de criatividade e inovação. Os autores identificaram que os especialistas conheciam menos da metade das técnicas apresentadas no estudo, mostrando uma diferença de conhecimento sobre as técnicas dentre os especialistas 
+
+As técnicas de estimulo a criatividade tornaram-se importantes adições para aprimorar o processo criativo. No entanto o elevado número de técnicas existentes, o conhecimento necessário para selecioná-las e utilizá-las, torna-se necessária a utilização de IA. Esse programa de IA é capaz de reter o conhecimento sobre as técnicas e também sobre como, quando e por que usar cada uma \cite{de2020artificial}.
+
+% -------------------------------------------------------------
+% -------------------------------------------------------------
+
+\citeonline{verganti2020innovation} realizou estudos de casos onde a IA auxiliou em diferentes fases do desenvolvimento de produto. Dentre eles o caso da Netflix que utilizou os dados dos usuários e sua atividade na plataforma para servir de entrada para seus algoritmos de IA. Estes algoritmos foram implementados através de três abordagens: 
+
+\begin{itemize}
+    \item \textit{Supervised Learning},
+    utilizando dados de usuários considerados similares, para calibrar as escolhas de recomendações de conteúdo
+    
+    \item \textit{Unsupervised Learning},
+    utilizando dados para predizer qual conteúdo poderia ser criado, este conteúdo foi utilizado para ajudar a avaliar o potencial da série \textit{House of Cards}.
+
+    \item \textit{Reinforced Learning},
+    utilizado para explorar opções e também para explorar soluções envolvendo a escolha das artes de cada série a ser apresentada para cada um dos usuários individualmente.
+\end{itemize}
+
+% -------------------------------------------------------------
+% -------------------------------------------------------------
+
+\citeonline{buhamdan2022use} elaboraram um código em Python que, utilizando uma estratégia de aprendizado reinforçado para encontrar a melhor solução para um problema de design em um modelo de um prédio com aproximadamente 8500 m². O seu programa busca otimizar uma função recompensa, assim reduzindo o custo, permitindo que o programa faça interações partindo de uma estado inicial até o valor convergir.
+
+% -------------------------------------------------------------
+% -------------------------------------------------------------
+
+Esses artigos mostram que a IA também pode ser utilizadas para facilitar na tomada de decisão de criação de novos produtos e estratégias de soluções de problemas.
 
 % *************************************************************
 % *************************************************************
-\subsection*{Outras análises}
+\subsection*{Outras análises do uso de IA no desenvolvimento de produto}
 
 % Meta-Analise
-\citeonline{li_development_2021} baseou-se na comparação entre padrões tradicionais de desenvolvimento utilizados no design de produtos e compreender os novos padrões de design auxiliados pela inteligência artificial, de modo a alcançar mais rapidamente o objetivo de simplificação de processos e inovação no design.
+\citeonline{li_development_2021} baseou-se na comparação entre padrões tradicionais de desenvolvimento utilizados no design de produtos e compreender os novos padrões de design auxiliados pela IA, de modo a alcançar mais rapidamente o objetivo de simplificação de processos e inovação no design.
 
-De forma geral, segundo \citeonline{li_development_2021}, as tecnologias de inteligência artificial podem substituir e auxiliar os designers durante o processo de desenvolvimento. Atualmente, a IA ainda não mudou completamente a maneira com que os produtos são desenvolvidos, mas tem inovado dentro das metodologias de desenvolvimento integrado de produto. O estudo demonstra que, na etapa informacional (fase de pesquisa) do design de produto, a IA interage de forma com que não só seja capaz realizar a pesquisa de produtos similares anteriores, mas também de julgar as vantagens e desvantagens entre diferentes conceitos. No design thinking, \citeonline{li_development_2021} esclarece que os requisitos do projeto do produto sejam constantemente atualizados e iterativos com a presença de tecnologias de IA. Neste caso, as soluções trazidas por essas tecnologias podem se tornar o ponto de partida de uma atualização do produto em uma posterior fase de validação. A avaliação e verificação dos resultados do projeto do produto após o ajuste pode tornar o feedback sobre o projeto do produto mais preciso e mais propício para o aperfeiçoamento do produto pelos designers. No processo de design tradicional, esta etapa é entediante e demorada, quando existente.
+De forma geral, segundo \citeonline{li_development_2021}, as tecnologias de IA podem substituir e auxiliar os designers durante o processo de desenvolvimento. Atualmente, a IA ainda não mudou completamente a maneira com que os produtos são desenvolvidos, mas tem inovado dentro das metodologias de desenvolvimento integrado de produto. O estudo demonstra que, na etapa informacional (fase de pesquisa) do design de produto, a IA interage de forma com que não só seja capaz realizar a pesquisa de produtos similares anteriores, mas também de julgar as vantagens e desvantagens entre diferentes conceitos. No design thinking, \citeonline{li_development_2021} esclarece que os requisitos do projeto do produto sejam constantemente atualizados e iterativos com a presença de tecnologias de IA. Neste caso, as soluções trazidas por essas tecnologias podem se tornar o ponto de partida de uma atualização do produto em uma posterior fase de validação. A avaliação e verificação dos resultados do projeto do produto após o ajuste pode tornar o feedback sobre o projeto do produto mais preciso e mais propício para o aperfeiçoamento do produto pelos designers. No processo de design tradicional, esta etapa é entediante e demorada, quando existente.
 
-Em suma, a inteligência artificial cria ideias de design mais eficazes no desenvolvimento de produtos, de acordo com \citeonline{li_development_2021}. Atualmente, a IA penetra gradualmente no criação de novos produtos, trazendo uma influência para a vida cotidiana. Portanto, é esperado que as tecnologias de IA sejam capazes de integrar todo o processo de concepção de produto.
+Em suma, a IA cria ideias de design mais eficazes no desenvolvimento de produtos, de acordo com \citeonline{li_development_2021}. Atualmente, a IA penetra gradualmente no criação de novos produtos, trazendo uma influência para a vida cotidiana. Portanto, é esperado que as tecnologias de IA sejam capazes de integrar todo o processo de concepção de produto.
 % -------------------------------------------------------------
 % -------------------------------------------------------------

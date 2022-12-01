@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.23)  30 NOV 2022 19:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.23)  30 NOV 2022 23:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -823,27 +823,32 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) (0_abstract.tex) (1_introducao.tex [1
 
-{C:/Users/Ivan_/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (2.1_ia.tex) (2.2_criatividade.tex) (2.3_desenvolvimento.tex) (3_metodologia.tex [2] (imagens/diagrama_metodologia.tex
+{C:/Users/Ivan_/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (2.1_ia.tex) (2.2_criatividade.tex) (2.3_desenvolvimento.tex) [2] (3_metodologia.tex [3] (imagens/diagrama_metodologia.tex
 Missing character: There is no ; in font nullfont!
-)) (4_resultados.tex [3] [4]) (5_conclusoes.tex) (artigo.bbl [5]) [6] (artigo.aux)
+)) (4_resultados.tex [4] [5]
+Overfull \hbox (3.55617pt too wide) in paragraph at lines 60--62
+[]\OT1/cmr/m/it/10 Unsupervised Le-ar-ning\OT1/cmr/m/n/10 , uti-li-zando da-dos para pre-di-zer qual conte^^Sudo po-de-ria ser cri-ado, este conte^^Sudo
+ []
+
+[6]) (5_conclusoes.tex) (artigo.bbl [7]) [8] (artigo.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `artigo.out' has not changed.
-(rerunfilecheck)             Checksum: A74B67C75969A1284C20521C3629D1C5;617.
+(rerunfilecheck)             Checksum: 00B37D4A48E4F86E156D1911E5CD2190;726.
  ) 
 Here is how much of TeX's memory you used:
- 28061 strings out of 475389
- 539335 string characters out of 2777000
- 886268 words of memory out of 3000000
- 48831 multiletter control sequences out of 15000+600000
+ 28074 strings out of 475389
+ 539583 string characters out of 2777000
+ 886666 words of memory out of 3000000
+ 48840 multiletter control sequences out of 15000+600000
  476557 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 130i,8n,123p,1396b,894s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 130i,8n,123p,1374b,894s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Ivan_/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:/Users/Ivan_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Ivan_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ivan_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Ivan_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ivan_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ivan_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Ivan_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ivan_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Ivan_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Ivan_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/Ivan_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Ivan_/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on artigo.pdf (6 pages, 192666 bytes).
+Output written on artigo.pdf (8 pages, 212426 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
